@@ -17,7 +17,7 @@ public sealed class GameEnvironment
             if (instance==null)
             {
                 instance = new GameEnvironment();
-                instance.GoalLocations.AddRange(GameObject.FindGameObjectsWithTag("goal"));
+                instance.GoalLocations.AddRange(GameObject.FindGameObjectsWithTag("goal"));//örnke oluşturulduğunda hedef noktaları listemize burdan alırız.
             }
             return instance;
         }
