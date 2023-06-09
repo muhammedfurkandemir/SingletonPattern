@@ -10,7 +10,7 @@ public sealed class GameEnvironment
     public List<GameObject> Obstacles { get { return obstacles; } }
     public List<GameObject> GoalLocations { get { return goalLocations; } }
 
-    public static GameEnvironment Singleton//veri gödereceğimiz property alanı
+    public static GameEnvironment Singleton //veri gödereceğimiz property alanı
     {
         get
         {
